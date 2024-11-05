@@ -1,0 +1,40 @@
+.FormBody{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    &.FormWrapper{
+        width: 80%;
+        height: 50%;
+        display: flex;
+    }
+
+    &.FormLeft{
+        width: 50%;
+        height: 100%;
+        background-color: red;
+    }
+
+    .FormRight{
+        width: 50%;
+        height: 100%;
+
+        &h4{
+            font-size: 40px;
+            font-weight: 500;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 20px;
+        }
+
+
+        & form{
+            input{
+                width: 80%;
+                height: 55px;
+                margin: 20px;
+                padding: 10px;
+            }
+        }
+    }
+}
